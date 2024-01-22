@@ -4,8 +4,9 @@ from PIL import Image
 
 def main():
 
-    image = "https://media.licdn.com/dms/image/D5603AQFSvTxudNDn1Q/profile-displayphoto-shrink_800_800/0/1633344799157?e=1711584000&v=beta&t=MQ3QWWgYwXQ-2rVFliVK87a-6M1LYKk995hpPwbLxOE"
+    st.set_page_config(page_title="Harsha Vardhan Reddy", page_icon="🧑‍💻", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
+    image = "https://media.licdn.com/dms/image/D5603AQFSvTxudNDn1Q/profile-displayphoto-shrink_800_800/0/1633344799157?e=1711584000&v=beta&t=MQ3QWWgYwXQ-2rVFliVK87a-6M1LYKk995hpPwbLxOE"
     st.image(image, width=300)
 
     st.title("Harsha Vardhan Reddy")
