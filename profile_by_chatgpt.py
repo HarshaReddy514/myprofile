@@ -4,7 +4,7 @@ from PIL import Image
 
 def main():
 
-    image = Image.open("/Users/hbommareddy/Documents/Harsha.jpg")
+    image = Image.open("https://github.com/HarshaReddy514/myprofile/blob/main/Harsha.jpg")
 
     st.image(image, width=300)
 
