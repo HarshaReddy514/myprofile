@@ -17,56 +17,36 @@ def main():
 - [Medium](https://harshavardhan-reddy.medium.com)
 ''', unsafe_allow_html=True)
 
-    # Education Section
-    st.header("Education")
-    st.write("Jawaharlal Nehru Technological University - Kakinada")
-    st.write("B. Tech in Computer Science and Engineering (Percentage: 73)")
+    st.markdown("""
+    ## Experienced IT Professional with a Passion for Innovation
 
-    # Work Experience Section
-    st.header("Work Experience")
+    Welcome to my corner of the digital realm! With 7 years in the IT industry, I've honed my skills as a tech enthusiast and problem solver. My journey has been fueled by a relentless curiosity and a commitment to staying at the forefront of technological advancements.
+    """)
 
-    # Altimetrik India Private Limited
-    st.subheader("Altimetrik India Private Limited")
-    st.write("Senior Engineer")
-    st.write("Location: Tadepalligudem – Andhra Pradesh (Graduation Month/Year: April 2016)")
-    st.write("Location: Chennai - Tamil Nadu (September 2021 – Present)")
-    st.write("- Working on fixing a major issue in Hyperwallet disabled cards balance")
-    st.write("- Implemented JWT Sign and Verification for PayPal IVS Component")
-    st.write("- Implemented web alerts for negative balance users in notifications service")
-    st.write("- Worked on improving PPC FT Coverage for DebtProfileServ and RBO Validation in PlacementServ")
+    st.markdown("### Technical Expertise:")
+    st.markdown("""
+    - **Programming Languages:** Proficient in Java and Python, I thrive in crafting robust and scalable solutions.
+    - **Frameworks:** Specializing in Spring Boot and Microservices architecture, I bring a wealth of experience in developing and optimizing high-performance applications.
+    - **Cloud Technologies:** Well-versed in cutting-edge cloud technologies, I seamlessly navigate through the digital clouds to ensure efficient and scalable solutions.
+    - **Version Control and Tools:** GitHub is my second home, and I wield tools like IntelliJ and Eclipse with finesse, ensuring a seamless development experience.
+    """)
 
-    # Valeo India Private Limited
-    st.subheader("Valeo India Private Limited")
-    st.write("Senior Engineer (April 2021 - September 2021)")
-    st.write("- Worked on a supply chain management application and pushed the application to production")
-    st.write("- Worked on a complex requirement which predominantly is on UI part and implemented a logic which reduces cost on a cron job read and write operations")
-    st.write("- Volunteered to take responsibility for training Java interns")
+    st.markdown("### Why Choose Me:")
+    st.markdown("""
+    In a rapidly evolving tech landscape, adaptability is key. I not only bring a solid foundation built on years of experience but also a commitment to continuous learning. Whether it's troubleshooting complex issues or architecting innovative solutions, I thrive on the challenges that come my way.
+    """)
 
-    st.write("Engineer (August 2019 - April 2021)")
-    st.write("- Delivered bug-free release of IC Non-Trade Contract Management application")
-    st.write("- Fixed an issue on reading the data from PDF invoices using OCR")
+    st.markdown("### Beyond the Code:")
+    st.markdown("""
+    My journey is not just about lines of code. It's about collaborating, problem-solving, and adding real value to every project I undertake. Let's not just meet expectations; let's exceed them together.
+    """)
 
-    # Full Creative Private Limited
-    st.subheader("Full Creative Private Limited")
-    st.write("Junior Software Engineer (October 2016 - August 2019)")
-    st.write("- Contributed as an individual to build a chrome extension for YoCoBoard (A time tracking app)")
-    st.write("- Improved the load time on the hours page")
-    st.write("- Recognized as a useful resource to work on fixing production issues in Setmore – Appointment scheduling application")
+    st.markdown("### Let's Connect:")
+    st.markdown("""
+    Explore the possibilities of what we can achieve together. Whether you're looking to streamline your development process, troubleshoot a challenging issue, or embark on a new project, I'm ready to be your tech partner.
 
-    st.write("Java Intern (June 2016 - September 2016)")
-    st.write("- Joined Full Creative as a Java intern")
-    st.write("- Upskilled on Java and learned Spring, JavaScript, jQuery, HTML, CSS, AJAX, JSON, and Git")
-    st.write("- Was in an Edu Scrum team of four members")
-    st.write("- Developed two web applications: FeedSystem to share multiple user’s feeds and a Q/A forum to post and answer questions")
-
-    # Skills Section
-    st.header("Skills")
-    st.write("Java, Spring Boot, JavaScript, jQuery, JSON, Ajax, HTML, CSS, JUnit, Mockito, Power Mock, Google App Engine, Datastore, Cloud Tasks, Cron Scheduler, Agile Methodologies")
-
-    # Certifications Section
-    st.header("Certifications")
-    st.write("- Oracle Certified Professional - Java SE 6 Programmer")
-    st.write("- edX Honor Code Certificate for Introduction to Mobile Application Development using Android")
+    Feel free to reach out, and let's turn your tech visions into reality.
+    """)
 
 if __name__ == "__main__":
     main()
