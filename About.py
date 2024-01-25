@@ -1,7 +1,5 @@
 import streamlit as st
 
-from PIL import Image
-
 def main():
 
     st.set_page_config(page_title="Harsha", page_icon="🧑‍💻", layout="wide", initial_sidebar_state="expanded", menu_items=None)
