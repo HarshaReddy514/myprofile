@@ -4,7 +4,7 @@ def main():
 
     st.set_page_config(page_title="Harsha", page_icon="🧑‍💻", layout="wide", initial_sidebar_state="expanded", menu_items=None)
 
-    image = "https://media.licdn.com/dms/image/D5603AQFSvTxudNDn1Q/profile-displayphoto-shrink_800_800/0/1633344799157?e=1711584000&v=beta&t=MQ3QWWgYwXQ-2rVFliVK87a-6M1LYKk995hpPwbLxOE"
+    image = "https://ibb.co/Ybm8Q57"
 
     col1, col2 = st.columns(2)
 
